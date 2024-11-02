@@ -1,6 +1,8 @@
 # Multiple PDF Query Chatbot 📄🤖
 
-A powerful PDF-based chatbot application built using **Python**, **Streamlit**, **LangChain**, and the **OpenAI API**. This project leverages **Retrieval-Augmented Generation (RAG)** to answer complex questions based on the content of uploaded PDF documents. Ideal for anyone looking to interact with PDF documents in a conversational manner, providing quick, accurate answers.
+A powerful PDF-based chatbot application built using **Python**, **Streamlit**, **LangChain**, and the **OpenAI API**. This project leverages **Retrieval-Augmented Generation (RAG)** to answer complex questions based on the content of uploaded PDF documents. Ideal for anyone looking to interact with PDF documents conversationally, providing quick, accurate answers.
+
+To Test out the RAG Implementation: https://multiple-pdf-rag-chatbot.streamlit.app/
 
 ---
 
@@ -36,7 +38,7 @@ A powerful PDF-based chatbot application built using **Python**, **Streamlit**, 
 - The chatbot provides accurate answers based on the retrieved data.
 
 ### Step 4: Conversational Memory
-- The chatbot retains memory of previous questions, allowing for a conversational flow.
+- The chatbot retains the memory of previous questions, allowing for a conversational flow.
 - You can review answers and return to previous questions, similar to a typical chatbot experience.
 
 ### Step 5: Contextual Responses
@@ -56,5 +58,3 @@ A powerful PDF-based chatbot application built using **Python**, **Streamlit**, 
 3. **Run the App**:
    ```bash
    streamlit run app2.py
-
-## To Test out the RAG Implementation: https://multiple-pdf-rag-chatbot.streamlit.app/
